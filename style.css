@@ -397,11 +397,13 @@ hr{
   justify-content: center; 
   align-items: center;
   gap: 3rem; 
-  margin: 100vh
+  margin-top: 150vh;
+
 }
 
 .section-title{
    font-size: 3rem;
+   padding-top: 50px; 
 }
 
 .contact-components p{ 

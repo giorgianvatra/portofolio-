@@ -30,6 +30,7 @@ html{
 }
 body {
   font-family: "Roboto Mono", monospace;
+  background-color: var(--background);
 
 }
 
@@ -139,20 +140,21 @@ p {
 @media (max-width: 600px){ 
  
   .container{ 
+   
     padding: 0;
-    margin-left: -1rem 
+    margin-left: -1rem
     
   }
   
   .link-section{ 
    display:flex; 
    justify-content: center;
-   gap: 15vw;
+   gap: 17vw;
     
   }
   .link-section a{ 
     height: 50px;
-    font-size: 1rem;
+    font-size: 0.65rem;
     
   }
   .nav-bar li{ 
